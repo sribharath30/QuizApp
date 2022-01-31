@@ -1,0 +1,14 @@
+App {
+  text-align: center;
+}
+.App {
+  font-family: "Poppins", sans-serif;
+  margin: 8% 25%;
+  padding: 10px;
+  background-color: rgb(16, 17, 44);
+  border: 5px solid rgb(8, 8, 8);
+  border-radius: 30px;
+}
+.App:hover {
+  box-shadow: 10px 10px rgb(167, 165, 165);
+}

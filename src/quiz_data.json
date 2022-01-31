@@ -1,0 +1,62 @@
+{
+  "quiz_questions": [
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"],
+      "answer": "7"
+    },
+    {
+      "id": 2,
+      "instruction_text": "What's your favorite number?",
+      "answer_options": ["1", "2", "3", "4"],
+      "answer": "4"
+    },
+    {
+      "id": 3,
+      "instruction_text": "Which is the longest bone in the human body? ",
+      "answer_options": ["Scapula", "Fibula", "Ulna", "Femur"],
+      "answer": "Femur"
+    },
+    {
+      "id": 4,
+      "instruction_text": "Sitting for more than three hours a day can cut two years off a person's life expectancy",
+      "answer_options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": 5,
+      "instruction_text": "How many scoring zones are there on a conventional dart board?",
+      "answer_options": ["82", "62", "42", "102"],
+      "answer": "82"
+    },
+    {
+      "id": 6,
+      "instruction_text": "What was the name of the Mysterious Island, in Jules Verne's",
+      "answer_options": [
+        "Vulcania Island",
+        "Lincoln Island",
+        "Prometheus Island",
+        "Neptune Island"
+      ],
+      "answer": "Lincoln Island"
+    },
+    {
+      "id": 7,
+      "instruction_text": "Blinky, Pinky, Inky and Clyde are characters from which classic video game?",
+      "answer_options": [
+        "Pac-Man",
+        "Gauntlet",
+        "Space Invaders",
+        "Street Fighter"
+      ],
+      "answer": "Pac-Man"
+    },
+    {
+      "id": 8,
+      "instruction_text": "What are the smallest blood vessels in the human body?",
+      "answer_options": ["Capillaries", "Arterioles", "Veinules", "Lymphatics"],
+      "answer": "Capillaries"
+    }
+  ]
+}

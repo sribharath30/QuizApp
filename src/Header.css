@@ -1,0 +1,9 @@
+header {
+  background-color: rgb(56, 61, 83);
+  height: 60px;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-weight: 600;
+  border-radius: 0 0 20px 20px;
+}
