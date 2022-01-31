@@ -54,7 +54,7 @@ export default function Quiz() {
       </div>
     );
   return (
-    <div>
+    <div className="quiz">
       {loading ? (
         <p>Quiz is loading Please wait</p>
       ) : (
