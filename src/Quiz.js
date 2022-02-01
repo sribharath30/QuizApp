@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import _ from "lodash";
 
 export default function Quiz() {
+  var he = require("he");
   const [position, setPosition] = useState(0);
   const [incorrect, setIncorrect] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -59,14 +60,14 @@ export default function Quiz() {
         <p>Quiz is loading Please wait</p>
       ) : (
         <div>
-          <h1>{_.unescape(quizdata[position].question)}</h1>
+          <h1>{he.decode(quizdata[position].question)}</h1>
           {shufflearray(
             quizdata[position].incorrect_answers,
             quizdata[position].correct_answer
           ).map((ans) => {
             return (
               <button key={ans} id={ans} onClick={checkans}>
-                {_.unescape(ans)}
+                {he.decode(ans)}
               </button>
             );
           })}
